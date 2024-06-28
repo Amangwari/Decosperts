@@ -1,6 +1,6 @@
 /**
  * @package 	WordPress
- * @subpackage 	Happy Events
+ * @subpackage 	Decosperts
  * @version		1.1.4
  * 
  * Modes & Functions for jQuery Isotope Plugin
