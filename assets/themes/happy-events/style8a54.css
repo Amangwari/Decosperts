@@ -808,6 +808,15 @@ mark {
   }
 }
 
+@media(max-width:768px){
+  .call-buton .cc-calto-action-ripple{
+    left: 20px;
+  }
+  .floating_btn_custom{
+    left: -5px;
+  }
+}
+
 /* about us  */
 
 
