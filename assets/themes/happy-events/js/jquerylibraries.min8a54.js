@@ -1,13 +1,4 @@
-/**
- * @package 	WordPress
- * @subpackage 	Decosperts
- * @version		1.1.8
- */
 
-
-/**!
- * CMSMasters Media Width
- **/
 function cmsmasters_media_width() {
 	var media_width = parseInt(jQuery('.cmsmasters_responsive_width').css('width'));
 	

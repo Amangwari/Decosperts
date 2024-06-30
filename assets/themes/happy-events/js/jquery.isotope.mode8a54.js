@@ -1,12 +1,3 @@
-/**
- * @package 	WordPress
- * @subpackage 	Decosperts
- * @version		1.1.4
- * 
- * Modes & Functions for jQuery Isotope Plugin
- * Created by CMSMasters
- * 
- */
 
 
 "use strict";

@@ -1,12 +1,3 @@
-/**
- * @package 	WordPress Plugin
- * @subpackage 	CMSMasters Mega Menu
- * @version 	1.2.9
- * 
- * Mega Menu Script
- * Created by CMSMasters
- * 
- */
 
 
 var header = jQuery('#header .header_mid_inner'), 

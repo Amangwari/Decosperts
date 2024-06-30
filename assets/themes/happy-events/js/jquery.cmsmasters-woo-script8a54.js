@@ -1,13 +1,3 @@
-/**
- * @package 	WordPress
- * @subpackage 	Decosperts
- * @version		1.1.1
- * 
- * Woocommerce Scripts
- * Created by CMSMasters
- * 
- */
-
 
 "use strict";
 

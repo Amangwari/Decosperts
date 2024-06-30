@@ -1,12 +1,3 @@
-/**
- * @package 	WordPress
- * @subpackage 	Decosperts
- * @version 	1.1.3
- * 
- * Theme Custom Scripts
- * Created by CMSMasters
- * 
- */
 
 
 jQuery(document).ready(function() { 
@@ -427,7 +418,7 @@ jQuery(document).ready(function() {
 					$(this).attr('rel', 'ilightbox[wp_gal_' + galUniqID + ']');
 				}
 			} );
-		} ); // WordPress Default Gallery Shortcode Lightbox
+		} ); 
 	} )(jQuery);
 	
 	

@@ -1,19 +1,3 @@
-/**
- * @package 	WordPress
- * @subpackage 	Decosperts
- * @version		1.1.8
- */
-
-/**
- * jQuery iLightBox - Revolutionary Lightbox Plugin
- * http://www.ilightbox.net/
- *
- * @version: 2.2.4 - October 14, 2017
- *
- * @author: iProDev (Hemn Chawroka)
- *          http://www.iprodev.com/
- *
- */
 (function($, window, undefined) {
 
 	var extensions = {

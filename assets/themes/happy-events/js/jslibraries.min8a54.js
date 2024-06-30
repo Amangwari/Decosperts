@@ -1,8 +1,3 @@
-/**
- * @package 	WordPress
- * @subpackage 	Decosperts
- * @version		1.1.3
- */
 
 
 /* Modernizr 2.8.3 (Custom Build) | MIT & BSD

@@ -1,17 +1,3 @@
-/*
-Theme Name: Decosperts
-Theme URI: http://cmsmasters.net/happy-events/
-Author: cmsmasters
-Author URI: http://cmsmasters.net/
-Description: Decosperts WordPress Theme is amazing. Unlimited design solutions can be created due to a great flexibility of settings and shortcode options. 99+ Custom Shortcodes are added through a Visual content composer with  drag'n'drop function. You can set a completely custom layout that stretches to any width, set your content in many columns and assign animation many parts of your content. Decosperts theme has a Services that can be set to any sort of a grid or a Masonry puzzle with variable paddings for elemens, while Blog can have several different layouts too. Custom Profiles and Services post types offer an optimal way to present your content, while valid code, SEO-optimized structure and microformats guarantee this content is easily crawled and indexed by search engines. Decosperts comes with a Custom Mega Menu plugin, a really functional Form Builder and premium Revolution and Layer Slider plugins included for free. Multilanguage, RTL-ready, plugin-compatible and professionally-supported theme.
-Version: 1.2.4
-License:
-License URI:
-Text Domain: happy-events
-Domain Path: /framework/languages
-Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
-*/
-
 
 /*-------------------------------------------------------------------------*/
 /* Browser Reset
@@ -741,6 +727,10 @@ mark {
   border-color: #ff792f;
   border-radius: 8px;
   user-select: none;
+}
+
+.cmsmasters_slider_project_title.entry-title a:hover{
+  color: #ff792f;
 }
 
 @media(max-width:1024px) {
