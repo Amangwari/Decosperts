@@ -807,6 +807,20 @@ mark {
   }
 }
 
+
+.footer_socialsss{
+  padding-left: 0!important;
+}
+
+.footer_socialsss:hover{
+  background-color: unset;
+  background: unset;
+}
+.footer_socialsss a{
+  background-color: unset!important;
+  background: unset;
+  color: #ff4e50!important;
+}
 /* about us  */
 
 
