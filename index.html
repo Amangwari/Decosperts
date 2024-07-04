@@ -115,11 +115,9 @@
 
 
 	<style id='happy-events-retina-inline-css' type='text/css'>
-		.cmsmasters_next_arrow,
-		.cmsmasters_prev_arrow {
-			background-color: #ff4e50 !important;
+		.cmsmasters_next_arrow, .cmsmasters_prev_arrow{
+			background-color: #ff4e50!important;
 		}
-
 		#cmsmasters_row_75949facd7 .cmsmasters_row_outer_parent {
 			padding-top: 0px;
 		}
@@ -2315,68 +2313,58 @@
 														<p role="status" aria-live="polite" aria-atomic="true"></p>
 														<ul></ul>
 													</div>
-													<!-- <form name="contact" method="POST" data-netlify="true" method="post"
-														class="wpcf7-form init" aria-label="Contact form"
+													<!-- action="https://happy-events.cmsmasters.net/#wpcf7-f4-p7366-o1" -->
+													<form
+														method="post" class="wpcf7-form init" aria-label="Contact form"
 														novalidate="novalidate" data-status="init">
-														<div data-netlify-recaptcha="true">
-
-															<input type="hidden" name="contact" value="contact" />
+														<div style="display: none;">
+															<input type="hidden" name="_wpcf7" value="4" />
+															<input type="hidden" name="_wpcf7_version" value="5.9.3" />
+															<input type="hidden" name="_wpcf7_locale" value="en_US" />
+															<input type="hidden" name="_wpcf7_unit_tag"
+																value="wpcf7-f4-p7366-o1" />
+															<input type="hidden" name="_wpcf7_container_post"
+																value="7366" />
+															<input type="hidden" name="_wpcf7_posted_data_hash"
+																value="" />
 														</div>
 														<p><label> Your Name (required)<br />
-																<span class="wpcf7-form-control-wrap" data-name="name">
-																	<input size="40"
+																<span class="wpcf7-form-control-wrap"
+																	data-name="your-name"><input size="40"
 																		class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
 																		aria-required="true" aria-invalid="false"
-																		value="" type="text" name="name" /></span>
+																		value="" type="text" name="your-name" /></span>
 															</label>
 														</p>
 														<p><label> Your Email (required)<br />
 																<span class="wpcf7-form-control-wrap"
-																	data-name="email"><input size="40"
+																	data-name="your-email"><input size="40"
 																		class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
 																		aria-required="true" aria-invalid="false"
-																		value="" type="email" name="email" /></span>
-															</label>
+																		value="" type="email"
+																		name="your-email" /></span> </label>
 														</p>
 														<p><label> Your Contact no. (required)<br />
 																<span class="wpcf7-form-control-wrap"
-																	data-name="contact"><input size="40"
+																	data-name="your-contact"><input size="40"
 																		class="wpcf7-form-control wpcf7-contact wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-contact"
 																		aria-required="true" aria-invalid="false"
-																		value="" type="tel" name="contact" /></span>
-															</label>
+																		value="" type="tel"
+																		name="your-contact" /></span> </label>
 														</p>
 														<p><label> Your Message<br />
 																<span class="wpcf7-form-control-wrap"
-																	data-name="message"><textarea cols="40" rows="10"
+																	data-name="your-message"><textarea cols="40"
+																		rows="10"
 																		class="wpcf7-form-control wpcf7-textarea"
 																		aria-invalid="false"
-																		name="message"></textarea></span> </label>
+																		name="your-message"></textarea></span> </label>
 														</p>
 														<p><input class="wpcf7-form-control wpcf7-submit has-spinner"
-																type="submit" />
+																type="submit" value="Send" />
 														</p>
 														<div class="wpcf7-response-output" aria-hidden="true"></div>
-													</form> -->
-
-													<form id="contactform" name="contact" method="POST" data-netlify="true">
-														<label for="name">First Name</label>
-														<input type="text" id="name" name="firstname"
-															placeholder="Your name.." required>
-
-														<label for="email">Email</label>
-														<input type="email" id="email" name="email"
-															placeholder="Your Email..." required>
-
-														<!-- You can add more fields here if needed -->
-
-														<button type="submit">Submit</button>
 													</form>
-
-													<!-- Optional: If you want to include a thank you message or redirect after form submission -->
-													<div style="display:none;" id="thankyou_message">
-														<h3>Thank you for contacting us!</h3>
-													</div>
 												</div>
 											</div>
 										</div>
@@ -2485,7 +2473,7 @@
 				</div> <span class="footer_copyright copyright">
 					<!-- <a class="privacy-policy-link" href="privacy-policy/index.html" rel="privacy-policy">Privacy
 						Policy</a> / This is a sample website - cmsmasters © 2024 / All Rights Reserved </span> -->
-					Copyright © 2024 Decosperts All Rights Reserved || Designed By <a target="_blank"
+					 Copyright © 2024 Decosperts  All Rights Reserved || Designed By <a target="_blank"
 						href="https://webscrew.in/">Webscrew.in</a>
 			</div> </span>
 	</div>
@@ -2514,19 +2502,6 @@
 
 
 	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-			var form = document.getElementById('contactform');
-			if (form) {
-				form.addEventListener('submit', function (event) {
-					event.preventDefault(); // Prevent default form submission
-					var thankyouMessage = document.getElementById('thankyou_message');
-					if (thankyouMessage) {
-						thankyouMessage.style.display = 'block'; // Show the thank you message
-					}
-					// Additional handling or AJAX submission can be added here if needed
-				});
-			}
-		});
 
 		// onDOMContentLoaded = (function () {
 		// 	const lightboxx = GLightbox({
