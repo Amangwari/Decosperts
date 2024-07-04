@@ -2359,7 +2359,7 @@
 														<div class="wpcf7-response-output" aria-hidden="true"></div>
 													</form> -->
 
-													<form name="contact" method="POST" data-netlify="true">
+													<form id="contactform" name="contact" method="POST" data-netlify="true">
 														<label for="name">First Name</label>
 														<input type="text" id="name" name="firstname"
 															placeholder="Your name.." required>
@@ -2514,11 +2514,20 @@
 
 
 	<script>
-		$(document).ready(function () {
-			$('form').submit(function () {
-				$('#thankyou_message').show();
-			});
+		document.addEventListener('DOMContentLoaded', function () {
+			var form = document.getElementById('contactform');
+			if (form) {
+				form.addEventListener('submit', function (event) {
+					event.preventDefault(); // Prevent default form submission
+					var thankyouMessage = document.getElementById('thankyou_message');
+					if (thankyouMessage) {
+						thankyouMessage.style.display = 'block'; // Show the thank you message
+					}
+					// Additional handling or AJAX submission can be added here if needed
+				});
+			}
 		});
+
 		// onDOMContentLoaded = (function () {
 		// 	const lightboxx = GLightbox({
 		// 		touchNavigation: true,
