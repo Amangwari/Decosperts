@@ -2359,22 +2359,24 @@
 														<div class="wpcf7-response-output" aria-hidden="true"></div>
 													</form> -->
 
-													<form name="contact" netlify>
+													<form name="contact" method="POST" data-netlify="true">
 														<label for="name">First Name</label>
 														<input type="text" id="name" name="firstname"
-															placeholder="Your name..">
+															placeholder="Your name.." required>
 
 														<label for="email">Email</label>
 														<input type="email" id="email" name="email"
-															placeholder="Your Email...">
+															placeholder="Your Email..." required>
 
-														<!-- <label for="subject">Subject</label>
-														<textarea id="subject" name="subject"
-															placeholder="Write something.."
-															style="height:200px"></textarea> -->
+														<!-- You can add more fields here if needed -->
 
-														<button type="submit" value="Submit">Button</button>
+														<button type="submit">Submit</button>
 													</form>
+
+													<!-- Optional: If you want to include a thank you message or redirect after form submission -->
+													<div style="display:none;" id="thankyou_message">
+														<h3>Thank you for contacting us!</h3>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -2512,7 +2514,11 @@
 
 
 	<script>
-
+		$(document).ready(function () {
+			$('form').submit(function () {
+				$('#thankyou_message').show();
+			});
+		});
 		// onDOMContentLoaded = (function () {
 		// 	const lightboxx = GLightbox({
 		// 		touchNavigation: true,
